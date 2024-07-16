@@ -1,0 +1,237 @@
+/**-header-css-start**/
+
+.header{
+    background:#3B5997;
+    color:#fff;
+    padding:30px 0;
+}
+.header::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.container{
+    width:70%;
+    margin:auto;
+}
+.logo-area{
+    width:30%;
+    float:left;
+}
+.logo-area img{
+    width:125px;
+    margin-top:8px;
+}
+.login-area{
+    width:70%;
+    float:left;
+}
+.login-area form{
+    float:right;
+}
+
+.login-area label,
+.login-area input{
+    display:block;
+}
+.login-area label{
+    margin-bottom:8px;
+    font-size:15px;
+}
+
+.login-area .email,
+.login-area .password,
+.login-area .login{
+    float:left;
+    margin-right:15px;
+}
+
+.login-area input[type="text"],
+.login-area input[type="password"]{
+     box-sizing:border-box;
+     font-size:13px;
+     padding:3px 6px;
+}
+.login-area .password a{
+    font-size:14px;
+    color:#fff;
+    text-decoration:none;
+}
+.login-area .password a:hover{
+    text-decoration:underline;
+}
+.login-area .login{
+    margin-right:0;
+}
+.login-area .login input{
+    margin-top:24px;
+    padding:4px 6px;
+    background:#d4d4d4;
+    color:#fff;
+    font-weight:700;
+    border-radius:3px;
+    border:1px solid #ccc;
+}
+/**-header-css-end**/
+/**-sign-up-css-start**/
+.signup-area{
+    padding:30px 0;
+    background:linear-gradient(#ffffff,#B3AAA3);
+}
+.signup-area::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.left-item{
+    float:left;
+    width:55%;
+    overflow:hidden;
+}
+.first-item,
+.second-item,
+.third-item{
+    width:97%;
+    overflow:hidden;
+    }
+.first-item,
+.second-item{
+    margin-bottom:30px;
+}
+.first-item img,
+.second-item img,
+.third-item img{
+    float:left;
+}
+.first-item p,
+.second-item p,
+.third-item p{
+    float:left;
+    margin-top:30px;
+}
+img{
+    margin-right:20px;
+}
+.left-item a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight:700;
+    color:black;
+    margin-right:10px;
+}
+.left-item a:hover{
+    text-decoration:underline;
+}
+.right-item{
+    float:left;
+    width:45%;
+}
+.right-item h1{
+    margin:0;
+    font-size:33px;
+    font-weight:700;
+}
+.right-item h4{
+    margin-top:10px;
+    margin-bottom:12px;
+    font-size:18px;
+    font-weight:400;
+}
+.right-item input[type="text"],
+.right-item input[type="password"]{
+    width:100%;
+    box-sizing:border-box;
+    padding:8px 12px;
+    border-radius:5px;
+    border:2px solid #d4d4d4;
+    font-size:16px;
+    margin:5px 0;
+}
+.full-name{
+    overflow:hidden;
+}
+.full-name .first-name,
+.full-name .surname{
+    width:48%;
+    float:left;
+    }
+.full-name .first-name{
+    margin-right:4%;
+}
+.birthday{
+    overflow:hidden;
+}
+.birthday h4{
+    font-size:18px;
+    font-weight:400;
+    margin-top:0;
+    margin-bottom:6px;
+}
+.birth-date{
+    width:220px;
+    float:left;
+    overflow:hidden;
+    margin-right:10px;
+}
+.birth-date select{
+    float:left;
+    padding:3px 7px;
+    border-radius:3px;
+    background:#fff;
+}
+.birth-link{
+    float:left;
+    width:187px;
+    margin-bottom:10px;
+}
+.birth-link a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+    display:block;
+}
+.birth-link a:hover{
+    text-decoration:underline;
+}
+.gender label{
+    font-size:22px;
+    font-weight:400;
+}
+.text-box{
+    margin:15px 0px;
+   }
+.text-box p{
+    text-align:justify;
+    font-size:14px;
+    line-height:1.3;
+     width:80%;
+}
+.text-box a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-weight:700;
+}
+.btn{
+    margin-bottom:30px;
+}
+.btn input{
+    min-width:260px;
+    background:linear-gradient(green,#56D256);
+    font-size:25px;
+    color:white;
+    padding:10px 20px;
+    border:0;
+    border-radius:5px;
+    transition:0.5s;
+}
+.btn input:hover{
+    box-shadow:inset 3px 3px 8px black;
+    background:linear-gradient(#56D256,green);
+}
+.business a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+/**-sign-up-css-end**/

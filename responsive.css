@@ -1,0 +1,57 @@
+@media screen and (max-width:980px){
+    .logo-area{
+        float:none;
+        width:100%;
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .login-area{
+        float:none;
+        width:428px;
+        margin:auto;
+    }
+    .login-area form{
+        float:none;
+    }
+    .left-item{
+        float:none;
+        width:100%;
+        margin-bottom:30px;
+        box-sizing:border-box;
+    }
+    .right-item{
+        float:none;
+        width:100%;
+        
+    }
+}
+@media screen and (max-width:768px){
+    .login-area{
+        width:100%;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+         box-sizing:border-box;
+         width:100%;
+    }
+    .login-area .email,
+    .login-area .password,
+    .login-area .login{
+        float:none;
+        margin-right:0px;
+    }
+    .birth-date select{
+        margin-bottom:10px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        width:90%;
+    }
+
+    .login input{
+        width:80px;
+        margin:auto;
+        margin-top:30px;
+    }
+}
